@@ -16,6 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+        materialTapTargetSize: MaterialTapTargetSize.padded,
+        visualDensity: VisualDensity.standard,
       ),
       home: const HomePage(),
     );
